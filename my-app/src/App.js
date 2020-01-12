@@ -148,7 +148,7 @@ export default function ControlledOpenSelect() {
       // start timer
       startTimer = true;
       document.getElementById("timerLabel").innerHTML = "Stop";
-      myVar = setInterval(myTimer, 1000);
+      myVar = setInterval(myTimer, 0.01);
     } else {
       // stop timer
       startTimer = false;
@@ -219,7 +219,7 @@ export default function ControlledOpenSelect() {
 
   const myTimer = () => {
     var t = document.getElementById("demo").innerHTML - 0;
-    document.getElementById("demo").innerHTML = t + 1;
+    document.getElementById("demo").innerHTML = (t + 0.01).toFixed(2);
   };
 
   var itemList = [
