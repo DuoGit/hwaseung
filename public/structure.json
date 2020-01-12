@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Shoes_1",
+		"processList": [
+			{
+				"processName" : "process_1",
+				"cycleList" : [5]
+			},
+			{
+				"processName" : "process_2",
+				"cycleList" : [5]
+			}
+		]
+	},
+	{
+		"name": "Shoes_2",
+		"processList": [
+			{
+				"processName" : "process_1",
+				"cycleList" : [5]
+			},
+			{
+				"processName" : "process_2",
+				"cycleList" : [5]
+			}
+		]
+	}
+]
